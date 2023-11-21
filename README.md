@@ -95,7 +95,7 @@ $ g++ -> clang: error: no input files
 ### STEP-1 (Setup `IntelliSense`)
 
 * `main.cpp` -> View -> `Command Palette` OR `cmd + shift + p` -> search C++ -> `C/C++: Edit Configuration (UI)`
-    - Compiler path: `/usr/local/g++`
+    - Compiler path: `/usr/local/g++` OR `C:/mingw64/bin/g++.exe`
     - C++ standard: `c++17`
 
 We can see that `.vscode` folder is created with `{} c_cpp_properties.json` file
